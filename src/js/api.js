@@ -1,5 +1,4 @@
 export let page;
-// export let page;
 export let query;
 
 const BASE_URL = 'https://api.themoviedb.org/3';
