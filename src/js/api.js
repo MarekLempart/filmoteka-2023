@@ -1,4 +1,5 @@
 export let page;
+// export let page;
 export let query;
 
 const BASE_URL = 'https://api.themoviedb.org/3';
@@ -63,12 +64,12 @@ async function fetchGenres() {
 }
 
 export {
+  API_KEY,
+  BASE_URL,
+  fetchGenres,
+  fetchMovieById,
+  fetchMoviesByQuery,
   fetchPopularMovies,
   fetchTodayPopularMovies,
-  fetchMoviesByQuery,
-  fetchMovieById,
   fetchTrailerById,
-  fetchGenres,
-  BASE_URL,
-  API_KEY,
 };
